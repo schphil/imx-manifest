@@ -12,6 +12,7 @@
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/nxp-imx-support" name="imx-support"/>
+  <remote fetch="https://github.com/schphil" name="schphil" />
 
   <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="60f79f7af60537146298560079ae603260f0bd14" upstream="kirkstone">
     <linkfile dest="README" src="README"/>
@@ -34,4 +35,5 @@
   <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="edce180f0389a13e678cb0edafb7f8980648e1a4"/>
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="973c8d0964c6f40338857efe5b8009b2f647d485"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="27de52e402ae000dfa502d52908cd6e6aef923ec" upstream="kirkstone"/>
+  <project name="meta-v2x" path="sources/meta-v2x" remote="schphil" revision="compulab"/>  
 </manifest>

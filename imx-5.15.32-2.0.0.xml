@@ -24,7 +24,7 @@
   <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="de0eb1408150d77f9cce97c559f9a5a3c71e5d6c" upstream="kirkstone"/>
   <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="fc15f5003043da23212596be7366ae2547c308ad" upstream="kirkstone"/>
 
-  <project name="meta-imx" path="sources/meta-imx" remote="schphil" revision="fb13a8795e7d497416b3a08ddc8d2aa11a099593" upstream="kirkstone-5.15.32-2.0.0">
+  <project name="meta-imx" path="sources/meta-imx" remote="schphil" revision="c06f7fd0e6963e2ae0eca6f4f9bbcc97c9d52bee" upstream="kirkstone-5.15.32-2.0.0">
     <linkfile dest="imx-setup-release.sh" src="tools/imx-setup-release.sh"/>
     <linkfile dest="README-IMXBSP" src="README"/>
   </project>
@@ -35,5 +35,5 @@
   <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="edce180f0389a13e678cb0edafb7f8980648e1a4"/>
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="973c8d0964c6f40338857efe5b8009b2f647d485"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="27de52e402ae000dfa502d52908cd6e6aef923ec" upstream="kirkstone"/>
-  <project name="meta-v2x" path="sources/meta-v2x" remote="schphil" revision="compulab"/>  
+  <project name="meta-v2x-dev" path="sources/meta-v2x-dev" remote="schphil" revision="compulab"/>  
 </manifest>
